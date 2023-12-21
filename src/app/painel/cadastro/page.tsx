@@ -55,9 +55,6 @@ function SubmitButton(props: SubmitButtonProps) {
   );
 }
 
-
-
-
 export default function Register() {
   const [isLoadingRegisterUser, setIsLoadingRegisterUser] = React.useState(false)
   const router = useRouter()
